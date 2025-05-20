@@ -13,22 +13,20 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="144dp"
         android:layout_marginTop="100dp"
-        android:text="VIrement"
+        android:text="@string/virement_title"
         android:textSize="30sp"
-
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/Rip"
+        android:id="@+id/rib"
         android:layout_width="303dp"
         android:layout_height="48dp"
         android:layout_marginStart="52dp"
         android:layout_marginTop="110dp"
         android:ems="10"
         android:inputType="text"
-
-        android:hint="hint"
+        android:hint="@string/rib_hint"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -40,18 +38,18 @@
         android:layout_marginTop="224dp"
         android:ems="10"
         android:inputType="text"
-        android:hint="montant"
+        android:hint="@string/amount_hint"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnVirement"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="124dp"
         android:layout_marginTop="180dp"
-        android:text="OK"
+        android:text="@string/validate_button"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Rip" />
+        app:layout_constraintTop_toBottomOf="@+id/rib" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

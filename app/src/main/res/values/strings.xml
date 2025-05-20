@@ -1,3 +1,21 @@
 <resources>
-    <string name="app_name">mini_projet</string>
+    <string name="app_name" translatable="false">mini_projet</string>
+    <string name="welcome_text">Bienvenue</string>
+    <string name="account_list">Listes des comptes</string>
+    <string name="transfer_button">Virement</string>
+    <string name="operations_history">Historique des opérations</string>
+
+
+    <string name="app_title">Banque mobile</string>
+    <string name="login_hint">Name</string>
+    <string name="password_hint">password</string>
+    <string name="connect_button">Connecter</string>
+
+
+    <string name="virement_title">Virement</string>
+    <string name="rib_hint">hint</string>
+    <string name="amount_hint">montant</string>
+    <string name="validate_button">OK</string>
+
+
 </resources>

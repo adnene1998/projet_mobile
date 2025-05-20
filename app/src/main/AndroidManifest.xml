@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Mini_projet"
         tools:targetApi="31">
         <activity
+            android:name=".DetailCompte"
+            android:exported="false" />
+        <activity
             android:name=".Virement"
             android:exported="false" />
         <activity
