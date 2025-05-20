@@ -43,7 +43,7 @@ class Virement : AppCompatActivity() {
                     "Virement de $montantText vers RIB $ribText effectué",
                     Toast.LENGTH_SHORT
                 ).show()
-                val intent = Intent(this, Accueil::class.java)
+                val intent = Intent(this, MainActivity::class.java)
                 accueilLauncher.launch(intent)
 
             } else {

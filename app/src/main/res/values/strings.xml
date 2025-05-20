@@ -18,4 +18,29 @@
     <string name="validate_button">OK</string>
 
 
+    <string name="detail_compte_title">Détails du compte</string>
+    <string name="compte_courant">Compte Courant</string>
+    <string name="numero_compte">N° %1$s</string>
+    <string name="solde_format">%1$s €</string>
+
+    <!-- Boutons -->
+    <string name="btn_virement">Virement</string>
+    <string name="btn_rib">RIB</string>
+
+
+    <string name="operations_recentes">Opérations récentes</string>
+
+    <string name="contact_title">Contactez-nous</string>
+    <string name="contact_subtitle">Nous sommes là pour vous aider</string>
+    <string name="contact_phone_label">Téléphone</string>
+    <string name="contact_phone">+216 71 123 456</string>
+    <string name="contact_email_label">Email</string>
+    <string name="contact_email">contact@banque.com</string>
+    <string name="contact_address_label">Adresse</string>
+    <string name="contact_address">123 Avenue de la République\nTunis, Tunisie</string>
+    <string name="contact_hours_label">Heures d\'ouverture</string>
+    <string name="contact_hours">Lun - Ven: 8h30 - 17h00\nSam: 9h00 - 13h00</string>
+    <string name="btn_back">Retour</string>
+
+
 </resources>
